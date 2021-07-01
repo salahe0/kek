@@ -1809,9 +1809,10 @@
 
 
 	function PlayVideo() {
-
+		console.log('video?')
 	    if ($('.video-wrapper').length > 0) {
 
+			console.log('video!')
 
 	        $(".video-wrapper").mouseenter(function(e) {
 	            if ($(this).hasClass("play")) {
